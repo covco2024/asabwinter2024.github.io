@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2757
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red185\green188\blue185;\red255\green255\blue255;\red184\green46\blue57;
+\red192\green82\blue5;\red136\green154\blue44;\red133\green92\blue145;\red79\green117\blue165;\red84\green85\blue84;
+}
+{\*\expandedcolortbl;;\cssrgb\c77241\c78418\c77536;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c77954\c26542\c28800;
+\cssrgb\c80581\c40124\c0;\cssrgb\c60265\c65725\c22505;\cssrgb\c59733\c44834\c63602;\cssrgb\c37810\c53914\c70730;\cssrgb\c40436\c40828\c40385;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+    \cf4 window\cf2 .\cf5 addEventListener\cf2 (\cf6 'load'\cf2 , \cf7 function\cf2 () \{\
+\
+        \cf7 const\cf2  \cf8 topBtn\cf2  \cf9 =\cf2  \cf4 document\cf2 .\cf5 getElementById\cf2 (\cf6 'topBtn'\cf2 );\
+    \
+        \cf4 window\cf2 .\cf5 onscroll\cf2  \cf9 =\cf2  \cf7 function\cf2 () \{ \
+            \cf7 if\cf2  (\cf4 document\cf2 .\cf4 body\cf2 .\cf4 scrollTop\cf2  \cf9 >\cf2  \cf8 20\cf2  \cf9 ||\cf2  \cf4 document\cf2 .\cf4 documentElement\cf2 .\cf4 scrollTop\cf2  \cf9 >\cf2  \cf8 20\cf2 ) \{\
+                \cf8 topBtn\cf2 .\cf4 style\cf2 .\cf4 display\cf2  \cf9 =\cf2  \cf6 'flex'\cf2 ;\
+            \} \
+            \cf7 else\cf2  \{\
+                \cf8 topBtn\cf2 .\cf4 style\cf2 .\cf4 display\cf2  \cf9 =\cf2  \cf6 'none'\cf2 ;\
+            \}\
+        \}\
+    \
+        \cf8 topBtn\cf2 .\cf5 addEventListener\cf2 (\cf6 'click'\cf2 , \cf7 function\cf2 () \{ \
+            \cf4 window\cf2 .\cf5 scroll\cf2 (\{\cf7 top\cf2 : \cf8 0\cf2 , \cf7 behavior\cf2 : \cf6 'smooth'\cf2 \});\
+        \});\
+    \
+        \cf7 if\cf2  (\cf9 !\cf4 window\cf2 .\cf5 matchMedia\cf2 (\cf6 '(max-width: 480px)'\cf2 ).\cf4 matches\cf2 ) \{\
+            \cf5 startSlideshow\cf2 ();\
+        \}\
+    \
+    \});\
+}
