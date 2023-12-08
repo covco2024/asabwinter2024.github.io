@@ -1507,24 +1507,25 @@ input, select, textarea {
 
 	.bio {
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: left;
-		align-items: center;
+		align-items: flex-start;
 		margin-bottom: 1rem;
 		padding-top: 1rem;
 	}
 
 	.bio-image-container {
-		flex: 0 0 200px;
+		width: 200px;
+		height: 200px;
 		margin-right: 2rem;
-		padding-right: 2rem;
+		border-radius: 10%;
+    overflow: hidden;
 	}
 
 	.bio-image {
-		width: 80%;
+		width: 100%;
 		height: auto;
 	}
-
+    
 	.bio-details {
 		flex: 1;
 		max-width: 600px;
