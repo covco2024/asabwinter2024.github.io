@@ -6,7 +6,7 @@ This repository contains the source code for the [website of the ASAB Winter Mee
 Author
 -------
 
-This website was created by Friederike [freddy; she/her] Hillemann ([fhillemann.github.io](https://fhillemann.github.io/)), the current ASAB Council Early Carreer Representative.
+This website was created by Friederike [freddy; she/her] Hillemann ([fhillemann.github.io](https://fhillemann.github.io/)), the current ASAB Council Early Career Representative.
 
 
 
