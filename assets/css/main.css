@@ -292,7 +292,7 @@ input, select, textarea {
 	}
 	
 
-/* Profiles, bio blurps -- organisers */
+/* Profiles, bio blurps -- organisers and plenary speakers */
 
   .bio {
     display: flex;
@@ -312,6 +312,8 @@ input, select, textarea {
 	.bio-image {
 		width: 100%;
 		height: auto;
+		display: block;
+		object-fit: cover;
 	}
     
 	.bio-details {
@@ -322,15 +324,6 @@ input, select, textarea {
 		vertical-align: top;
 		text-align: justify;
 	}
-
-/* Profiles, bio blurps -- plenary speakers */
-	
-	  .bio-image-container2 {
-		width: 250px;
-		height: 250px;
-		border-radius: 10%;
-		overflow: hidden;
-	  }
 
 
 /* Table */
