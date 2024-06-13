@@ -1,14 +1,26 @@
 <!DOCTYPE HTML>
 
 <!--
-Website License Information
-This website was created by Friederike [freddy; she/her] Hillemann. 
-The source code of this website was created using Visual Studio Code, an open-source code editor developed by Microsoft and released under the MIT License. It contains elements from the templates Miniport and Escape Velocity, provided by html5up.net under the Creative Commons Attribution 3.0 Unported (CC BY 3.0) license. 
-You are free to share, adapt, and build upon the material for personal and non-commercial use, all under the terms of the Creative Commons Attribution-NonCommercial 4.0 International Public License (CC BY-NC 4.0); i.e., you may not use the material for commercial purposes and if you choose to use or modify the material, you must provide appropriate attribution. 
-Feedback, bug reports, and comments on this website are not only welcome but strongly encouraged. Your input helps improve the website experience for users.
-Friederike Hillemann
-fhillemann.github.io
-December 2023
+
+About
+-------
+This repository contains the source code for the website of the ASAB Winter Meeting 2024 (https://asabwinter2024.github.io/), the topical annual meeting of The Association for the Study of Animal Behaviour.
+
+Author
+-------
+This website was created by Friederike [freddy; she/her] Hillemann (https://fhillemann.github.io/), the current ASAB Council Early Career Representative.
+
+Usage
+-------
+Dear future (ASAB) conference organisers, feel free to use this repository as a template for your meeting website. 
+Simply clone or fork this repo to get started. If you're new to using GitHub to host a website, check out GitHub Pages (https://pages.github.com/) for a step-by-step guide. 
+You can change the content of the page by editing the index.html file. To change the images, replace the files in the assets/images/ folder. Additionally, you can adjust the style of the page by modifying the main.css file located in the assets/css/ folder.
+
+License
+-------
+The source code contains customised elements and responsive tools from the templates Miniport and Escape Velocity provided by @ajlkn via html5up.net under the Creative Commons Attribution 3.0 Unported License (CC BY 3.0; https://creativecommons.org/licenses/by/3.0/).
+You are free to share, adapt, and build upon the material for any purpose under the terms of the Creative Commons Attribution 4.0 Unported License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/), i.e., you must provide appropriate attribution if you use or modify the material. 
+
 -->
 
 <html>
@@ -18,7 +30,7 @@ December 2023
 	<meta charset='utf-8'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="shortcut icon" type="image/png" href="images/ASAB_logo_favicon.jpeg" />
+	<link rel="shortcut icon" type="image/png" href="assets/images/ASAB_logo_favicon.jpeg" />
 </head>
 
 <body class="homepage is-preload">
@@ -26,12 +38,10 @@ December 2023
 	<!-- Page Navigation -->
 	<nav id="nav">
 		<ul>
-			<li><a href="#programme">Plenary Speakers</a></li>
-			<li><a href="#programme">Programme</a></li>
+			<li><a href="#programme">Plenary Speakers and Programme</a></li>
 			<li><a href="#venue">Venue</a></li>
 			<li><a href="#registration">Registration</a></li>
 			<li><a href="#organisers">Organisers</a></li>
-			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 
@@ -39,82 +49,64 @@ December 2023
 	<!-- Header -->
 	<div class="image-banner-container">
 		<div class="image-banner">
-		  <img src="images/banner.png" alt="ASAB Logo with snowflakes and theme of the Winter Meeting 2024: Addressing Biases in the Field of Animal Behaviour">
+		  <img src="assets/images/banner.png" alt="ASAB Logo with snowflakes and theme of the Winter Meeting 2024: Addressing Biases in the Field of Animal Behaviour">
 		</div>
 	  </div>
 
 		  
 	<!-- About -->
-	<section id="about" class="section" style="background-color: #f5f5f5;">
+	<section id="about" class="section">
 		<div class="section-heading"> Addressing biases in the field of animal behaviour</div>
 		
-		<div style="font-size: 10pt"> 
-		<p>
-			Animal behaviour research is affected by researchers' assumptions and expectations, <br>
-			impacting how the research is conducted, interpretation of behaviours, <br>
-			research questions addressed, and taxonomic representation. In addition, <br>
-			animal subject inclusion is not random, as recently summarised by the STRANGE framework. <br>
-			Like other academic fields, animal behaviour is also shaped by historical biases <br>
-			influencing whose research is recognised as influential and skewing the scientific discourse.
-		</p>
-		
-		<p>
-			Recognising detrimental impacts of these biases presents an opportunity for positive change. <br>
-			At the ASAB Winter Meeting 2024, we explore biases in animal behaviour research, and <br>
-			discuss a comprehensive system change towards fairness and inclusion of diverse perspectives. <br>
-			This transformative shift to ensure new insights and more robust science involves <br>
-			evaluating community needs, fostering cultural changes, and implementing explicit policies. 
-		</p>
-		<p>
+		<p style="text-align: justify; padding: 0 4em; line-height: 1.8;"> 
+			Animal behaviour research is affected by researchers' assumptions and expectations,
+			impacting how the research is conducted, interpretation of behaviours,
+			research questions addressed, and taxonomic representation. In addition,
+			animal subject inclusion is not random, as recently summarised by the STRANGE framework.
+			Like other academic fields, animal behaviour is also shaped by historical biases
+			influencing whose research is recognised as influential and skewing the scientific discourse. </br></br>
+			
+			Recognising detrimental impacts of these biases presents an opportunity for positive change.
+			At the ASAB Winter Meeting 2024, we explore biases in animal behaviour research, and
+			discuss a comprehensive system change towards fairness and inclusion of diverse perspectives.
+			To ensure new insights and more robust science, this transformative shift involves
+			evaluating community needs, fostering cultural changes, and implementing explicit policies. </br></br>
+			
 			We aim to publish a special issue with conference proceedings.
 		</p>
 
 			<!--
-			The field of Animal Behaviour aims to understand the evolution of behaviour from ultimate and proximate levels and does this by applying observational and experimental methods in a wide range of species. 
+				The field of Animal Behaviour aims to understand the evolution of behaviour from ultimate and proximate levels and does this by applying observational and experimental methods in a wide range of species. 
+				However, studying animal behaviour can be difficult and the aim to objectively quantify behaviour is often challenged by assumptions made by researchers. 
+				As such, when conducting studies in the field of behaviour, a wide range of biases need to be considered, for example, observer biases or expectation bias. 
+				A systematic review published in 2015 identified only 13.3% of studies in fields of ecology, evolution, and behavior applied a blind study design (Kardish et al., 2015). 
+				Further, taxonomic biases strongly affect species studies, with endothermic vertebrates overrepresented in comparison to arthropods (Rosenthal et al., 2017). 
+				Further, historic biases exist in the field, affecting the kind of research questions addressed, the geographical areas chosen, the lead researchers, and how research is conducted. 
+				
+				Similar to other academic fields, Animal Behaviour for a long time has been mostly shaped by dominant social groups (e.g., Western men), with others being historically excluded. 
+				The academic system generally is regarded as a meritocracy, where individuals are rewarded based on their abilities and achievements.
+				
+				Inequitable norms and policies lead to disparities in opportunities and recognition often resulting in lower productivity and job satisfaction of members from marginalised groups (Cech, 2022). 
+				Factors like mentorship, institutional support, and access to resources can significantly impact an individual's success and achievements and access to support can be inequitable. 
+				Losing people from historically marginalised groups from academia also means losing diverse perspectives from the academic system, resulting in reduced quality of scholarship and innovation (Gomez & Bernet, 2019).
+				
+				As a scientific society, ASAB has a responsibility to address these challenges, promote diversity and inclusion, and create a more equitable environment, which ultimately is essential to ensure best scientific advancement in the field of Animal Behaviour. 
+				
+				Identifying areas where replication and reanalysis would be most important would boost new scientific directions and the reliability of results in Animal Behaviour.
+				Inclusion of individuals with diverse backgrounds and experiences in the research community brings a broader range of knowledge and perspectives to the field of Animal Behaviour. 
+				Different cultural, societal, and personal experiences can shape the way individuals approach research. 
+				This diversity of perspectives can lead to new insights, innovative research approaches, and a deeper understanding of the complexities of animal behavior. 
+				
+				Promoting a diverse and inclusive environment can help to identify and address biases and ensure that research and interpretations are based on robust science, rather than preconceived notions.  
 			
-			However, studying animal behaviour can be difficult and the aim to objectively quantify behaviour is often challenged by assumptions made by researchers. 
-			
-			As such, when conducting studies in the field of behaviour, a wide range of biases need to be considered, for example, observer biases or expectation bias. 
-			
-			A systematic review published in 2015 identified only 13.3% of studies in fields of ecology, evolution, and behavior applied a blind study design (Kardish et al., 2015). 
-			
-			Further, taxonomic biases strongly affect species studies, with endothermic vertebrates overrepresented in comparison to arthropods (Rosenthal et al., 2017). 
-			
-			Further, historic biases exist in the field, affecting the kind of research questions addressed, the geographical areas chosen, the lead researchers, and how research is conducted. 
-			
-			Similar to other academic fields, Animal Behaviour for a long time has been mostly shaped by dominant social groups (e.g., Western men), with others being historically excluded. 
-			
-			The academic system generally is regarded as a meritocracy, where individuals are rewarded based on their abilities and achievements.
-			
-			However, inequitable norms and policies lead to disparities in opportunities and recognition often resulting in lower productivity and job satisfaction of members from marginalized groups (Cech, 2022). 
-			
-			Factors like mentorship, institutional support, and access to resources can significantly impact an individual's success and achievements and access to support can be inequitable. 
-			
-			Losing people from historically marginalized groups from academia also means losing diverse perspectives from the academic system, resulting in reduced quality of scholarship and innovation (Gomez & Bernet, 2019).
-			
-			As a scientific society, ASAB has a responsibility to address these challenges, promote diversity and inclusion, and create a more equitable environment, which ultimately is essential to ensure best scientific advancement in the field of Animal Behaviour. 
-			
-			Identifying areas where replication and reanalysis would be most important would boost new scientific directions and the reliability of results in Animal Behaviour.
-			
-			Inclusion of individuals with diverse backgrounds and experiences in the research community brings a broader range of knowledge and perspectives to the field of Animal Behaviour. 
-			
-			Different cultural, societal, and personal experiences can shape the way individuals approach research. 
-			
-			This diversity of perspectives can lead to new insights, innovative research approaches, and a deeper understanding of the complexities of animal behavior. 
-			
-			Promoting a diverse and inclusive environment can help to identify and address biases and ensure that research and interpretations are based on robust science, rather than preconceived notions.  
-		
-			At the ASAB Winter Meeting 2024, we aim to bring together a diverse community of researchers for a critical examination of biases in the field. 
-			We will foster discussions on adopting a system change approach to enhancing equity, and promoting diversity and inclusion in Animal Behaviour research.
-			System change is based on an evaluation of the needs of a community, and addressing both explicit and implicit changes. 
-			Explicit changes are implemented through policies, while implicit change involves addressing underlying biases or cultural factors influencing the system, 
-			e.g., through awareness and sensitivity training, as well as equitable resource allocation.
+				At the ASAB Winter Meeting 2024, we aim to bring together a diverse community of researchers for a critical examination of biases in the field. 
+				We will foster discussions on adopting a system change approach to enhancing equity, and promoting diversity and inclusion in Animal Behaviour research.
+				System change is based on an evaluation of the needs of a community, and addressing both explicit and implicit changes. 
+				Explicit changes are implemented through policies, while implicit change involves addressing underlying biases or cultural factors influencing the system, 
+				e.g., through awareness and sensitivity training, as well as equitable resource allocation.
 
-			By employing a comprehensive system change strategy, we hope to contribute to a positive transformation within the field, towards promoting inclusivity and fairness.
-		
-		-->
-		</p>
-		</div>
+				By employing a comprehensive system change strategy, we hope to contribute to a positive transformation within the field, towards promoting inclusivity and fairness.
+			-->
 	</section>
 
 
@@ -123,11 +115,16 @@ December 2023
 
 
 	<!-- Programme -->
-	<section id="programme" class="section" style="background-color: #f5f5f5;">
+	<section id="programme" class="section">
 		<div class="section-heading">Plenary Speakers/Programme</div>
 			
 		<p>
-			Watch this space while we build the programme and website. <br>
+			The full programme and information for presenters will be published here. <br>
+			Follow us on 
+			<a href="https://twitter.com/asab_tweets" target="_blank">social media</a>, or sign up to the 
+			<a href="https://www.asab.org/newsletters" target="_blank">ASAB newsletter</a> 
+			for regular updates. 
+		</p>
 
 			<!-- PDF of programme -->
 			<!-- 
@@ -141,70 +138,144 @@ December 2023
 				We won't be able to accommodate posters larger than this unfortunately.
 			-->
 
-			Follow us on 
-			<a href="https://twitter.com/asab_tweets" target="_blank">social media</a>, or sign up the 
-			<a href="https://www.asab.org/newsletters" target="_blank">ASAB newsletter</a> 
-			for regular updates. 
-		</p>
+		<div class="bio">
+			<div class="bio-image-container2">
+				<img class="bio-image" src="assets/images/plenary_outreach_MAK_cropped.jpg" alt="profile photo of Malin Ah-King">
+			</div>
+			<div class="bio-details">
+				<div style="border-bottom: 2px dotted; display: inline;"><strong>Public Outreach Lecture</strong></div> <br>
+				<strong>Malin Ah-King, Stockholm University/Örebro University, SWE </strong>
+				<p  style="line-height: 1.5;">
+					Malin Ah-King is an Associate Professor in Gender Studies at Stockholm University/Örebro University, Sweden. 
+					She is an evolutionary biologist (PhD) and gender researcher focusing on gender/queer perspectives on biology and feminist science studies of contemporary sexual selection research. 
+					Her current project explores a controversy over sex differences in evolutionary biology. 
+					She investigates the relationship between science and society through analysing the production of scientific knowledge as well as ignorance.
+					She has published in biological and gender journals, and makes regular contributions to radio, newsprint and podcasts.
+					You can find out more about Malin
+					<a href="https://www.su.se/english/profiles/malinak-1.283768" target="_blank">here</a>.
+				</p>
+			</div>
+		</div>
+
+		<div class="bio">
+			<div class="bio-image-container2">
+				<img class="bio-image" src="assets/images/plenary_TA_cropped.jpg" alt="profile photo of Tatsuya Amano">
+			</div>
+			<div class="bio-details">
+				<strong>Tatsuya Amano, The University of Queensland, AUS </strong>
+				<p style="line-height: 1.5;">
+					Tatsuya is a conservation scientist, committed to making the conservation community, and more broadly academia, more evidence-based, diverse, and inclusive. 
+					Tatsuya has been leading <a href="https://translatesciences.com/" target="_blank">the translatE project</a>,
+					which aims to understand the consequences of language barriers in science. 
+					The project has shown how language barriers can impede evidence-based biodiversity conservation in three major ways: 
+					barriers to (1) the global synthesis of scientific evidence, (2) the application of English-language evidence to local decision making, and (3) the generation of scientific evidence by non-native English speakers. 
+					Tatsuya works as a Senior Lecturer at the School of the Environment and Centre for Biodiversity and Conservation Science, at The University of Queensland.
+				</p>
+			</div>
+		</div>
+
+		<div class="bio">
+			<div class="bio-image-container2">
+				<img class="bio-image" src="assets/images/ASAB_logo_favicon.jpeg" alt="placeholder for profile photo of Antica Čulina">
+			</div>
+			<div class="bio-details">
+				<strong>Antica Čulina, Ruđer Bošković Insitute, HRV</strong>
+				<p style="line-height: 1.5;">
+				TBA <br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				</p>
+			</div>
+		</div>
 
 	</section>
 
 
 	<!-- Venue -->
-	<section id="venue" class="section" style="background-color: #f5f5f5;">
+	<section id="venue" class="section">
 		<div class="section-heading">Venue</div>
 		
-		<p>
-			The meeting will be held in the Royal College of Physicians of Edinburgh. <br>
-			Conveniently located, a mere five-minute walk from Edinburgh Waverley train station, <br>
-			the venue finds itself in the very heart of this vibrant and historic city. <br>
-			There are plenty of places to eat, drink, and visit nearby.
+		<p style="text-align: justify; padding: 0 4em; line-height: 1.8;">
+			The meeting will be held in the Royal College of Physicians of Edinburgh.
+			Conveniently located, a mere five-minute walk from Edinburgh Waverley train station,
+			the venue finds itself in the very heart of this vibrant and historic city.
+			There are plenty of places to eat, drink, and visit nearby. 
+			A list of accommodation close to the venue can be dowloaded 
+			<a href="./assets/PDFs/rcpe_hotels.pdf" target="_blank">here</a>.
 		</p>
 		<iframe
         	src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6391.490320924886!2d-3.197998211363026!3d55.953221374749894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c79179fe6c85%3A0x566cd1906cab7d!2sRoyal%20College%20of%20Physicians%20of%20Edinburgh!5e0!3m2!1sen!2suk!4v1687386088218!5m2!1sen!2suk"
         	style="width: 80%; max-width: 80%; height: 30rem; border: 3px solid #47a4e2;"
-        	referrerpolicy="no-referrer-when-downgrade"></iframe>
+        	referrerpolicy="no-referrer-when-downgrade">
+		</iframe>
 
 	</section>
 
 
 
-	<!-- Registration -->
-	<section id="registration" class="section" style="background-color: #f5f5f5;">
-		<div class="section-heading">Registration</div>
+	<!-- Registration, Abstract Submission, Code of Conduct -->
+	<section id="registration" class="section">
+		<div class="section-heading">Registration and Abstract Submission</div>
 
-		<p> 
-			Registration is expected to open in the summer of 2024. Watch this space. 
+		<p style="text-align: justify; padding: 0 4em;"> 
+			
+			<b>Registration and abstract submission is open </b> <br>
+			Please use the link below to register your interest in attending the conference, either in person or virtually, and to submit an abstract for your conference contribution.
+			There is no registration fee. As the conference venue has limited availability (less than 300 spaces) and we want to enable attendance for as many people as possible interested in the conference,
+			we will ask you to confirm your in-person attendance via e-mail as we get closer to the conference. If you fail to respond, we reserve the right to allocate places to people who confirmed their attendance.
+			Please note that if you do not confirm your in-person attendance, we cannot guarantee entry to the conference venue.
+			<br>
+			Deadline for abstract submission is 31st July 2024:
+			<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=2sM1X645Mkaawa_C8l0oUtkXyNg4sF1FqVwZCUb1MrNUQ0NQUFE0MjNFNTRINlFBRVU0TzdBVEpSVS4u" target="_blank">Registration of interest and abstract submission</a>
+			 <br><br>
+
+			<b>ASAB Conference attendance grants</b> <br>
+			Deadline for conference attendance grants up to £500 (all applicants): 1st October 2024 <br>
+			Deadline for conference attendance grants up to £2500 (Developing Country Applicant): 1st August 2024 <br>
+			Deadline for childcare and accessibility conference attendance grants: 1st October 2024 <br>
+			Eligibility criteria and information on how to apply:
+			<a href="https://www.asab.org/grants-and-awards" target="_blank">www.asab.org/grants-and-awards</a>. <br><br>
+		
+			<b>Code of Conduct</b> <br>
+			As the organisational committee of the ASAB Winter Meeting 2024, it is our fundamental mission to host an event for animal behaviour professionals to meet, connect, develop new collaborations, learn from each other, share scientific ideas, and build knowledge. 
+			Bringing together people from different walks of life, we wish this conference to be held in a respectful, inclusive, and welcoming atmosphere.
+			To ensure this, we ask all participants to adhere to our
+			<a href="./assets/PDFs/asabwinter2024_CodeOfConduct.pdf" target="_blank"> Code of Conduct </a>.
 		</p>
-
-		<!-- PDF/page to code of conduct --> 
 
 	</section>
 
 
 
 	<!-- Organising Committee -->
-	<section id="organisers" class="section" style="background-color: #f5f5f5;">
+	<section id="organisers" class="section">
 		<div class="section-heading">Organising Committee</div>
 
 		<div class="bio">
 			<div class="bio-image-container">
-				<img class="bio-image" src="images/orga1_CAFW.jpg" alt="profile photo of Claudia Wascher">
+				<img class="bio-image" src="assets/images/orga1_CAFW.jpg" alt="profile photo of Claudia Wascher">
 			</div>
 			<div class="bio-details">
-				<strong>Claudia Wascher (she/her), Anglia Ruskin University, UK </strong>
+				<strong>Claudia Wascher (she/her), Anglia Ruskin University, GBR </strong>
 				<p>
-					Claudia studies animal behaviour and cognition, particularly in animals with beaks.
+					Claudia studies social behaviour and cognition, mainly in birds.
 				</p>
 			</div>
 		</div>
 		
 		<div class="bio">
 			<div class="bio-image-container">
-				<img class="bio-image" src="images/orga2_VN.jpg" alt="photo of Vivek Nityananda">
+				<img class="bio-image" src="assets/images/orga2_VN.jpg" alt="photo of Vivek Nityananda">
 			</div>
 			<div class="bio-details">
-				<strong>Vivek Nityananda (he/him), Newcastle University, UK </strong>
+				<strong>Vivek Nityananda (he/him), Newcastle University, GBR </strong>
 				<p>
 					Vivek studies animal sensory biology and cognition, usually in insects.
 				</p>
@@ -213,10 +284,10 @@ December 2023
 		
 		<div class="bio">
 			<div class="bio-image-container">
-				<img class="bio-image" src="images/orga3_CA.jpg" alt="photo of Cedric Aumont">
+				<img class="bio-image" src="assets/images/orga3_CA.jpg" alt="photo of Cedric Aumont">
 			</div>
 			<div class="bio-details">
-				<strong>Cédric Aumont (he/him), Freie Universität Berlin, D</strong>
+				<strong>Cédric Aumont (he/him), Freie Universität Berlin, DEU </strong>
 				<p>
 					Cédric studies the evolution of social behaviour in termites and cockroaches.	
 				</p>
@@ -225,10 +296,10 @@ December 2023
 
 		<div class="bio">
 			<div class="bio-image-container">
-				<img class="bio-image" src="images/orga4_CB.jpg" alt="photo of Chiara Benvenuto">
+				<img class="bio-image" src="assets/images/orga4_CB.jpg" alt="photo of Chiara Benvenuto">
 			</div>
 			<div class="bio-details">
-				<strong> Chiara Benvenuto (she/her), University of Salford, UK </strong>
+				<strong> Chiara Benvenuto (she/her), University of Salford, GBR </strong>
 				<p>
 					Chiara studies behaviours and reproductive strategies of aquatic animals.
 				</p>
@@ -237,12 +308,12 @@ December 2023
 		
 		<div class="bio">
 			<div class="bio-image-container">
-				<img class="bio-image" src="images/orga5_NK.png" alt="photo of Nicola Koyama">
+				<img class="bio-image" src="assets/images/orga5_NK.png" alt="photo of Nicola Koyama">
 			</div>
 			<div class="bio-details">
-				<strong> Nicola Koyama (she/her), Liverpool John Moores University, UK </strong>
+				<strong> Nicola Koyama (she/her), Liverpool John Moores University, GBR </strong>
 				<p>
-					Nicola is interested in four-legged creatures, including primates, in particular socioecology.
+					Nicola studies the socioecology of four-legged creatures, including primates.
 				</p>
 			</div>
 		</div>
@@ -251,10 +322,10 @@ December 2023
 
 
 	<!-- Contact -->
-	<section id="contact" class="section" style="background-color: #f5f5f5;">
+	<section id="contact" class="section">
 		<div class="section-heading">Get In Touch</div>
 			<p>
-				<a href="mailto:Asabwinter2024@gmail.com" class="icon fa-lg fa-envelope" data-auto-recognition="true" data-content="Asabwinter2024@gmail.com" data-type="mail"></a>
+				<a href="mailto:asabwinter2024@gmail.com" class="icon fa-lg fa-envelope" data-auto-recognition="true" data-content="asabwinter2024@gmail.com" data-type="mail"></a>
 				<a href="https://twitter.com/asab_conference" target="_blank" class="icon brands fa-twitter" style="margin-left: 1em;"></a>
 			</p>
 	</section>
@@ -271,7 +342,7 @@ December 2023
 	<div id="topBtn" 
 		style="display: none; justify-content: center; align-items: center; 
 		position: fixed; right: 2vw; bottom: 2vw; width: 3rem; height: 3rem; border-radius: 50%; 
-		background-color: #47a4e2; cursor: pointer; background-image: url(&quot;images/arrow_up.png&quot;); 
+		background-color: #47a4e2; cursor: pointer; background-image: url(&quot;assets/images/arrow_up.png&quot;); 
 		background-position: center; background-repeat: no-repeat; background-size:80%;">
 	</div>
 
